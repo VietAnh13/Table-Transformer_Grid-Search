@@ -1,0 +1,2 @@
+# Determine the nearest state and continue training Table Transformer (TATR)
+This folder stores the information about the location of the model's weights in its most recent state, allowing for the continuation of training in case the process is interrupted.

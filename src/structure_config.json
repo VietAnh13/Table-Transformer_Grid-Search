@@ -1,12 +1,12 @@
 {
-    "lr":5e-5,
-    "lr_backbone":1e-5,
+    "lr":1.25e-4,
+    "lr_backbone":6e-5,
     "batch_size":2,
-    "weight_decay":1e-4,
-    "epochs":20,
+    "weight_decay":1.25e-3,
+    "epochs":200,
     "lr_drop":1,
-    "lr_gamma":0.9,
-    "clip_max_norm":0.1,
+    "lr_gamma":0.969,
+    "clip_max_norm":0.08,
     
     "backbone":"resnet18",
     "num_classes":6,
@@ -20,7 +20,7 @@
     "hidden_dim":256,
     "dropout":0.1,
     "nheads":8,
-    "num_queries":125,
+    "num_queries":122,
     "pre_norm":true,
     
     "masks":false,
